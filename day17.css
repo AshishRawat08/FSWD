@@ -1,0 +1,57 @@
+/*In max-width it should be in decreasing order  */
+
+
+/* @media  (max-width: 900px){
+    h2{
+        font-weight: 0;
+        font-size: 34px;
+        color: yellow;
+    }
+    
+}
+@media  (max-width: 500px){
+    h2{
+        font-weight: 0;
+        font-size: 15px;
+        color: rgb(0, 89, 255);
+    }
+    
+} */
+
+
+/*In min-width it should be in increasing  order  */
+
+@media  (min-width: 200px){
+    h2{
+        font-weight: 0;
+        font-size: 15px;
+        color: rgb(255, 0, 0);
+    }
+}
+
+@media  (min-width: 600px){
+    h2{
+        font-weight: 0;
+        font-size: 15px;
+        color: rgb(200, 255, 0);
+    }
+    
+}
+
+@media  (min-width: 900px){
+    h2{
+        font-weight: 0;
+        font-size: 15px;
+        color: rgb(0, 89, 255);
+    }
+    
+}
+
+@media  (min-width: 1200px){
+    h2{
+        font-weight: 0;
+        font-size: 15px;
+        color: rgb(145, 255, 0);
+    } 
+    
+}

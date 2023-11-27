@@ -1,0 +1,74 @@
+button:hover{
+      background-color: black;
+      color: wheat;
+      cursor: pointer;
+}
+button:active{
+    border: 2px solid red;
+}
+button:focus{
+    background-color: blue;
+}
+
+/* visited link  */
+a{
+    color: rgb(214, 23, 23);
+}
+a:hover{
+    color: black;
+}
+a:visited{
+    color: rgb(39, 214, 23);
+}
+
+span{
+    background: yellow;
+    padding: 2px;
+    margin: 2px;
+}
+span:nth-child(even){
+    color: red;
+    background-color: purple;
+}
+span:nth-child(odd){
+    color: purple;
+    background-color: red;
+}
+
+/* pseudo elements  */
+h1::before{
+    content: "Hey "; /* content that you wanna show */ 
+}
+h1::after{
+    content: " G'morning ";
+}
+
+.shape{
+    border: 2px solid black;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+}
+.shape::before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: rgb(180, 27, 211);
+    position: absolute;
+    top: 25px;
+    left: 9px;
+    border-radius: 50%;
+}
+.shape::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    top: 5px;
+    right: 9px;
+    border-radius: 50%;
+}

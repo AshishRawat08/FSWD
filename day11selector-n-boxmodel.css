@@ -1,0 +1,84 @@
+ /* 1-Element selector  
+
+ h1, {
+    background-color: black;
+    color: goldenrod;
+}
+
+p{
+    background-color: green;
+    color: black;
+} 
+
+body{
+    background-color: black;
+    color: goldenrod;
+} */
+
+
+
+/* 2-Element selector list
+
+ h1, p{
+    background-color: black;
+    color: goldenrod;
+}  */
+
+
+/* 3-Universal selector */
+
+*{
+    background-color: green;
+    color: rgb(6, 7, 7);
+
+    border: 2px solid grey;
+}
+
+/* 4-ID selector --- can given anything */
+/* use the same id name given to the elements for target that particular element and id always shuold be unique */
+#demo1{
+    color: red;
+    border: 2px solid black;
+}
+
+/* 5-Class selector --- can be anything */
+/* use the same class name given to the elements for target that those elements and same class given to multiple elements n an element have multiple class names  */
+.prac{
+    background-color: #1a2edd;
+    color: red;
+}
+
+/* CS units  */
+/* px, % vh, vw, em, rem */
+
+/* 6-Descendant selector */
+/* target anchor tag which is present inside the li tag only  */
+li a{
+   color: white;
+   background-color: rgb(35, 52, 206);
+}
+
+b i {
+    color: yellow;
+    background-color: black;
+}
+
+/* cant target anchor tag  */
+/* li{
+    color: darkmagenta;
+} */
+
+/* 7-Direct child selector  */
+/* greater than sign is mandatory  */
+u > i {
+    color: red;
+}
+
+
+/* box model  */
+h4{
+    border: 3px solid black;
+    padding: 23px; /* spacing around text inside border  */
+    margin: 20px; /* spacing around outside the  border  */
+}
+

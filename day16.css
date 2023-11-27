@@ -1,0 +1,39 @@
+.box{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.ball{
+    background-color: rgb(228, 177, 11);
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid rgb(214, 25, 25);
+    
+}
+.ball:hover{
+    animation: ashish 5s 2 forwards ease-in-out;
+
+}
+@keyframes ashish {
+    
+    25%{
+        transform: translate(400%,0);
+        background-color: #fff;
+        border-radius: 13px;
+    }
+    50%{
+        transform: translate(400%,400%);
+        background-color: #38dd17;
+    }
+    75%{
+        transform: translate(0,400%);
+        background-color: rgb(216, 17, 17);
+    }
+    100%{
+        transform: translate(0,0);
+        background-color: rgb(17, 20, 216);
+    }
+}

@@ -1,0 +1,40 @@
+.parent1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* default value */
+    border: 2px solid black;
+    background-color: grey;
+    width: 100%;
+    /* height: 200px; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid green;
+}
+
+.demo1 {
+    background-color: red;
+}
+
+button{
+    margin: 5px;
+    padding: 4px;
+    background-color: beige;
+    border: 2px  solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1.4s ease-in-out;
+    
+}
+button:hover{
+       background: black;
+       color: wheat;
+       transform: rotate(-180deg);
+}

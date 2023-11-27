@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE AND INPUT TAGS</title>
+</head>
+<body>
+    <!-- table  -->
+    <center>
+    <table border="2" style="border-collapse: collapse;">
+        <tr>
+            <th>Company Name</th>
+            <th>Mail</th>
+            <th>Phone Number</th>
+            <th>About us</th>
+            
+        </tr>
+        <tr>
+            <td rowspan="2">Wipro</td>
+            <td>abc@wiprogamil.com</td>
+            <td>9178536964326</td>
+            <td>Hello</td>
+           
+        </tr>
+        <tr>
+            <td colspan="1">Adidas</td>
+            <td>abc@adidasgamil.com</td>
+            <td>91853657432d6</td>
+            <td>Bye</td>
+            
+        </tr>
+            <td>Nike</td>
+            <td>abc@nikegamil.com</td>
+            <td>9157438976577</td>
+            <td>Hola</td>
+            
+        </tr>
+    </table>
+</center>
+<!-- input tag  -->
+<h3> LOG IN </h3>
+<label for="fname">Your Name:&nbsp;&nbsp;&nbsp;</label>
+<input type="text" class="fname" id="fname" placeholder="Enter your name" required> <span style="color: red;">*</span><br> <br> 
+
+<label for="gender"> Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="other">Othere <br><br>
+
+<label for="fname">Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="password" class="fname" id="fname" placeholder="Enter your password" required> <span style="color: red;">*</span> <br><br>
+
+<label for="vehicle">Vehicals using :</label>
+<input type="checkbox" name="bike" id="vehical1">
+<label for="vehicle1">Bike</label>
+<input type="checkbox" name="car" id="vehical2">
+<label for="vehicle2">Car</label>
+<input type="checkbox" name="truck" id="vehical3">
+<label for="vehicle3">Truck</label><br><br>
+
+<label for="city">City :</label>
+<select name="city" id="city-names">
+<option value="delhi">Delhi</option>
+<option value="mumbai">Mumbai</option>
+<option value="agra">Agra</option>
+</select> <br><br>
+
+<button value="submit">Submit</button>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td><label for="name">User Name :</label></td>
+            <td><input type="text" name="name" id="name" placeholder="Enter your user anme" required><span style="color: red;"> *</span></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password :</label></td>
+            <td><input type="password" name="password" id="password" placeholder="Enter your password " required><span style="color: red;"> *</span></td>
+        </tr>
+        <tr>
+            <td><label for="phone number">Phone number : </label></td>
+            <td><input type="number" name="phone number" id="phone-number" placeholder="Enter your phone number " required><span style="color: red;"> *</span></td>
+        </tr>
+        <tr>
+            <td><label for="progL">Pragramming Language : </label></td>
+            <td><input type="checkbox" name="progL" checked><label>c</label>c
+                <input type="checkbox" name="progL" ><label >c++</label>
+                <input type="checkbox" name="progL" ><label >java</label>
+                <input type="checkbox" name="progL" ><label >python</label></td>
+        </tr>
+        <tr>
+            <td><label for="course">Course : </label></td>
+            <td><select name="course" id="">
+                <option value=""></option>
+                <option value="fswb">Full stack web development</option>
+                <option value="ml">Machine learning</option>
+                <option value="dsa">Data structure algorithum</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td> <label for="gender">GENDER : </label></td>
+            <td><input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female</td>
+        </tr>
+    </table>
+        <form action="">
+            <h1>Sign up </h1>
+            <label for="name">User Name :</label>
+            <input type="text" name="name" id="name" placeholder="Enter your user anme" required><span style="color: red;"> *</span>
+            <br><br>
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password " required><span style="color: red;"> *</span>
+            <br><br>
+            <label for="phone number">Phone number : </label>
+            <input type="number" name="phone number" id="phone-number" placeholder="Enter your phone number " required><span style="color: red;"> *</span>
+            <br><br>
+
+            <!-- <label for="datetime">tiem and date</label>
+            <input type="datetime-local" name="" id=""> -->
+            
+            <label for="progL">Pragramming Language : </label>
+            <input type="checkbox" name="progL" checked><label>c</label>c
+            <input type="checkbox" name="progL" ><label >c++</label>
+            <input type="checkbox" name="progL" ><label >java</label>
+            <input type="checkbox" name="progL" ><label >python</label>
+            <br><br>
+            
+            <label for="course">Course : </label>
+            <select name="course" id="">
+                <option value=""></option>
+                <option value="fswb">Full stack web development</option>
+                <option value="ml">Machine learning</option>
+                <option value="dsa">Data structure algorithum</option>
+            </select>
+            <br><br>
+            
+            <label for="gender">GENDER : </label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br><br>
+
+            <input type="submit" name="" id="">
+            <input type="reset" name="" id="">
+            <br><br>
+
+            <a href="/">Forget password?</a>
+            <br><br>
+
+            <span>Already a member? <a href="/">Log in</a></span>
+            
+        </form>
+</body>
+</html>
